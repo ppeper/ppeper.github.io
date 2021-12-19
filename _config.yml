@@ -16,18 +16,18 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : ""
+title                    : "ppeper"
 title_separator          : ""
-subtitle                 : "ppeper"
-name                     : "박준후"
-description              : "An amazing website."
+subtitle                 : "Android study"
+name                     : "ppeper"
+description              : "Android study"
 url                      : "https://ppeper.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ppeper/ppeper.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -243,16 +243,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
@@ -276,6 +276,10 @@ defaults:
       comments: true # 블로그 댓글 기능
       share: true
       related: true
+      show_date: true
+      toc: true
+      toc_sticky: true
+      sitemap: true
   # _pages
   - scope:
       path: "_pages"
