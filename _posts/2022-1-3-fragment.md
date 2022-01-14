@@ -4,7 +4,7 @@ categories: Android
 tags: ['Android', 'Fragment']
 header:
     teaser: /assets/teasers/android-image.png
-last_modified_at: 2022-1-1T00:00:00+09:00
+last_modified_at: 2022-1-3T00:00:00+09:00
 ---
 
 - - -
