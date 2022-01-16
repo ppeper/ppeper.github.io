@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://ppeper.github.io/sitemap.xml
+Sitemap: https://ppeper.github.io/sitemap
