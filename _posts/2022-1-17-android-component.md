@@ -1,5 +1,5 @@
 ---
-title: 안드로이드 4대 컴포넌트??
+title: 안드로이드 4대 컴포넌트란
 categories: Android
 tags: ['Android']
 header:
