@@ -29,7 +29,7 @@ b aa baa → bb aa → aa →
 | baabaa|    1   | 
 | cdcd  |    0   | 
 
-# 풀이
+### 풀이
 
 - - - 
 
