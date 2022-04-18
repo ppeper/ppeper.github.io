@@ -328,14 +328,14 @@ body {
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 8px;
-  padding: 5px 10px;
+  padding: 2px 5px;
   text-decoration: none;
-  border: 1px solid mix(#000, $border-color, 25%);
-  border-radius: $border-radius;
+  border: 2px solid mix(#000, $border-color, 25%);
+  border-radius: 10px;
 
   &:hover {
     text-decoration: none;
-    color: $link-color-hover;
+    color: #12b886;
   }
 }
 
@@ -400,7 +400,7 @@ body {
 .back-to-top {
   display: block;
   clear: both;
-  color: $muted-text-color;
+  color: #000;
   font-size: 0.6em;
   text-transform: uppercase;
   text-align: right;
