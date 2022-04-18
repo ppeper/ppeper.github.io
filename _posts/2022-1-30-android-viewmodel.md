@@ -106,6 +106,7 @@ ViewModel의 간단한 예시에서는 생성자의 아무런 인자가 없다. 
 앞으로 차근차근 공부해가며 진정한 __MVVM 패턴에 맞는 ViewModel__ 을 사용하기 위해 공부를 해야겠다.😁
 
 > 📍[안드로이드 Jetpack의 LiveData 적용하기](https://ppeper.github.io/android/android-livedata/)
+
 - - -
 # References
 - [안드로이드 ViewModel 개요](https://developer.android.com/topic/libraries/architecture/viewmodel?hl=ko)
