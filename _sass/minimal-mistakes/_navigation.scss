@@ -182,7 +182,7 @@
   a {
     display: block;
     margin: 0 1rem;
-    color: $masthead-link-color;
+    color: #3d4144;
     text-decoration: none;
     -webkit-transition: none;
     transition: none;
@@ -193,7 +193,7 @@
 
     &.site-logo {
       margin-left: 0;
-      margin-right: 0.5rem;
+      margin-right: 0; // default: 0.5rem;
     }
 
     &.site-title {
