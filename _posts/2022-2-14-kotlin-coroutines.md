@@ -1,6 +1,6 @@
 ---
 title: 안드로이드 코루틴의 기초 알아보기
-categories: kotlin
+categories: Kotlin
 tags: ['Android', 'Kotlin', 'Coroutine', '비동기']
 header:
     teaser: /assets/teasers/kotlin-coroutine-image.png
