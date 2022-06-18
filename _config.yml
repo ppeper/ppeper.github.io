@@ -104,8 +104,8 @@ analytics:
 # Site Author
 author:
   name             : "박준후"
-  avatar           : "/assets/images/profile_image.jpg"
-  bio              : "__안드로이드에 관심있는 학생__"
+  avatar           : "/assets/images/profile_image.png"
+  bio              : "__안드로이드__"
   location         : 
   email            :
   links:
