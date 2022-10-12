@@ -13,7 +13,10 @@
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes@4.23.0"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
+dark_theme_toggle        : true # 다크 모드 토글 기능 추가
+after_footer_scripts:
+  - /assets/js/custom/dark-theme.js
+  
 # Site Settings
 github                   : [metadata]
 locale                   : "ko-KR"
