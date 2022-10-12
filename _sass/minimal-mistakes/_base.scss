@@ -115,8 +115,7 @@ blockquote {
   padding: 0.1rem 0.1rem 0.1rem 1rem;
   // font-style: italic;
   border-left: 0.25em solid #20c997;
-  background-color: #f6f8fa;
-
+  background-color: mix(#000, $background-color, 8%); 
   cite {
     font-style: italic;
 
@@ -136,14 +135,14 @@ a {
   }
 
   &:visited {
-    // color: $link-color-visited;
-    color: #12b886;
+    color: $link-color-visited;
+    // color: #12b886;
   }
 
   &:hover {
-    // color: $link-color-hover;
+    color: $link-color-hover;
     outline: 0;
-    color: #12b886;
+    // color: #12b886;
   }
 }
 

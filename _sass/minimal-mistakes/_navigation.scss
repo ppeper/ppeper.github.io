@@ -89,7 +89,7 @@
 
       &.current,
       &.current.disabled {
-        color: #fff;
+        color: $text-color;
         background: $primary-color;
       }
 
@@ -182,7 +182,7 @@
   a {
     display: block;
     margin: 0 1rem;
-    color: #3d4144;
+    color: $text-color;
     text-decoration: none;
     -webkit-transition: none;
     transition: none;
@@ -513,9 +513,9 @@
   box-shadow: $box-shadow;
 
   .nav__title {
-    color: #000;
+    color: $text-color;
     font-size: $type-size-6;
-    background: #fff;
+    background: $background-color;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
