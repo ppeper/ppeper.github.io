@@ -361,3 +361,14 @@ input[type="submit"],
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+// 스크롤바 Custom
+::-webkit-scrollbar {
+  width: 14px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: $scrollbar-color;
+}
+::-webkit-scrollbar-track {
+  background-color: $scrollbar-track-color;
+}

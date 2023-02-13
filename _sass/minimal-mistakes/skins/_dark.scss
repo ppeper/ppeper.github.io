@@ -17,6 +17,8 @@ $link-color: #3880df !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
+$scrollbar-color: #45474c;
+$scrollbar-track-color: #8b8b8b;
 
 .author__urls.social-icons i,
 .author__urls.social-icons .svg-inline--fa,
