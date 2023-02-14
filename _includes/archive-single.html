@@ -11,7 +11,7 @@
 {% endif %}
 
 <div class="{{ include.type | default: 'list' }}__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork" style="margin: 20px;">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork" style="margin: 30px;">
     <div style="display: inline-block;">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
@@ -19,7 +19,7 @@
     </div>
     {% else %}  
       {% if teaser %}
-        <img src="{{ teaser | relative_url }}" width="160" alt="" style="margin-right: 10px;">
+        <img src="{{ teaser | relative_url }}" width="160" alt="" style="margin-right: 10px; border-radius: 5px;">
       {% endif %}
     {% endif %}
     </div>
