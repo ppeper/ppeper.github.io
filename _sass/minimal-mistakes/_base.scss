@@ -372,3 +372,14 @@ input[type="submit"],
 ::-webkit-scrollbar-track {
   background-color: $scrollbar-track-color;
 }
+
+// 스크롤바 Custom
+.sticky::-webkit-scrollbar {
+  width: 8px;
+}
+.sticky::-webkit-scrollbar-thumb {
+  background-color: $scrollbar-side-color;
+}
+.sticky::-webkit-scrollbar-track {
+  background-color: $scrollbar-side-track-color;
+}

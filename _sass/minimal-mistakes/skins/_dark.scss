@@ -19,6 +19,9 @@ $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 $scrollbar-color: #45474c;
 $scrollbar-track-color: #8b8b8b;
+// 사이드바 scrollbar
+$scrollbar-side-color: #45474c;
+$scrollbar-side-track-color: #8b8b8b;
 $top-background-color: #272d38;
 
 .author__urls.social-icons i,
