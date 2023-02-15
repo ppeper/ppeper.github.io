@@ -115,7 +115,7 @@ blockquote {
   padding: 0.1rem 0.1rem 0.1rem 1rem;
   // font-style: italic;
   border-left: 0.25em solid #20c997;
-  background-color: mix(#000, $background-color, 8%); 
+  background-color: $block-background-color; 
   cite {
     font-style: italic;
 
