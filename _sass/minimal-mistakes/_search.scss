@@ -48,19 +48,26 @@
     animation-delay: 0.15s;
 
     @include breakpoint($x-large) {
-      max-width: $max-width;
+      // max-width: $max-width;
+      max-width: $medium;
     }
 
   }
 
   &__form {
+    display: flex;
     background-color: transparent;
+    border: 1px solid $form-border-color;
+    border-radius: 5px;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
   }
 
   .search-input {
     display: block;
     margin-bottom: 0;
-    padding: 0;
+    // padding: 0;
+    padding-left: 1.5rem;
     border: none;
     outline: none;
     box-shadow: none;
@@ -72,7 +79,8 @@
     }
 
     @include breakpoint($x-large) {
-      font-size: $type-size-1;
+      // font-size: $type-size-1;
+      font-size: $type-size-3;
     }
   }
 
@@ -87,8 +95,8 @@
   }
 
   .results__found {
-    margin-top: 0.5em;
-    font-size: $type-size-6;
+    margin-top: 1em;
+    font-size: $type-size-5;
   }
 
   .archive__item {
@@ -99,16 +107,20 @@
     }
 
     @include breakpoint($x-large) {
-      width: 50%;
+      width: 100%;
     }
   }
 
   .archive__item-title {
-    margin-top: 0;
+    margin-top: 0.75rem;
   }
 
   .archive__item-excerpt {
-    margin-bottom: 0;
+    margin-bottom: 3rem;
+  }
+
+  .archive__item_hr {
+    margin-bottom: 3rem;
   }
 }
 
