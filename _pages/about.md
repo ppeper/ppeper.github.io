@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 title: "About"
-layout: single
+layout: post
 author_profile: false
 ---
 ## 수정중
