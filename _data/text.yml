@@ -45,7 +45,7 @@ ko: &DEFAULT_KO
   page                       : "페이지"
   back_to_top                : "맨 위로"
   breadcrumb_separator       : ">"
-  menu_label                 : Menu"
+  menu_label                 : "Menu"
   toc_label                  : "주요 목차"
   ext_link_label             : "직접 링크"
   less_than                  : "최대"
