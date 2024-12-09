@@ -26,6 +26,7 @@
   margin-bottom: 1rem;
   display: flex;
   border: 1px solid #f1f1f1;
+  border-radius: 6px;
 
   .custom_image {
     aspect-ratio: 16/9;
@@ -87,7 +88,6 @@
 
 // 썸네일 글씨는 조절
 .entry-excerpt.p-summary {
-  color: #888;
   font-size: 14px;
 }
 
@@ -207,7 +207,6 @@
     order: 2;
     margin-bottom: 1em;
     font-size: 0.75rem;
-    color: #292929;
   }
 
   .more-link {
@@ -221,6 +220,5 @@
 
 // Custom Search 요약
 .custom-search {
-  color: #888;
   font-size: 14px;
 }
