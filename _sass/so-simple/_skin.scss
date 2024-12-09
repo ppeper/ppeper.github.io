@@ -581,3 +581,17 @@ figure.highlight {
   }
 }
 
+// Custom Table Th
+table th {
+  color: $table-th;
+}
+
+// Custom highlight background
+div.highlighter-rouge,
+figure.highlight {
+  > pre,
+  pre.highlight {
+    background-color: $highlight;
+  }
+}
+
