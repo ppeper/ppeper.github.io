@@ -11,6 +11,7 @@
           {%- endif -%}
           <li><a href="{{ url }}">{{ link.title }}</a></li>
         {%- endfor -%}
+        <li>{% include toggle.html %}</li>
       </ul>
     </nav>
   </div><!-- /.navigation-wrapper -->
