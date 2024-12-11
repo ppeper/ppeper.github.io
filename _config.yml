@@ -18,6 +18,7 @@ after_footer_scripts:
   - /assets/js/custom/dark-theme.js
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/default.css"
+repository: "ppeper/ppeper.github.io"
 locale: ko-KR
 title: "ppeper"
 description: "경험을 꾸준히 적어가는 공간"
@@ -49,7 +50,7 @@ liquid:
 markdown: kramdown
 feed:
   path: atom.xml
-permalink: /blog/:title
+permalink: /:categories/:title/
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
