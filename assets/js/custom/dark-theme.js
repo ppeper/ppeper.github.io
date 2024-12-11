@@ -1,10 +1,25 @@
 const defaultTheme = [...document.styleSheets].find(style => /(main.css)$/.test(style.href));
 const darkTheme = [...document.styleSheets].find(style => /(main_dark.css)$/.test(style.href));
 
+var uttLight = document.getElementById("utterences-light");
+var uttDark = document.getElementById("utterences-dark");
+
 let setDarkMode = (isDark) => {
     darkTheme.disabled = isDark !== true;
     defaultTheme.disabled = isDark === true;
     localStorage.setItem('theme', isDark ? 'dark' : 'default');
+}
+
+let utterancesTheme = () => {
+    if (document.querySelector('.utterances-frame')) {
+        const theme = localStorage.theme === 'dark' ? 'github-dark' : 'github-light';
+        const message = {
+            type: 'set-theme',
+            theme: theme
+        };
+        const iframe = document.querySelector('.utterances-frame');
+        iframe.contentWindow.postMessage(message, 'https://utteranc.es');
+    }
 }
 
 if (darkTheme) {
@@ -28,4 +43,5 @@ if (darkTheme) {
     }
 
     toggleThemeBtn.addEventListener('click', changeTheme);
+    toggleThemeBtn.addEventListener('click', utterancesTheme);
 }
