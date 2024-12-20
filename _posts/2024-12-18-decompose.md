@@ -1,7 +1,7 @@
 ---
 title: Kotlin Multiplatform - Decompose
 categories: Kotlin Multiplatform
-tags: ['Kotlin Multiplatform']
+tags: ['Kotlin', 'Kotlin Multiplatform']
 header:
     teaser: /assets/teasers/multiplatform-decompose-image.png
 last_modified_at: 2024-12-18T00:00:00+09:00
