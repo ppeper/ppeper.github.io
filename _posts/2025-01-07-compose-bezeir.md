@@ -31,7 +31,7 @@ Bezier Curve는 `조절점(Control point)` 를 사용해 직선을 점차 기울
 
 아래의 영상에서 Bezier Curve를 간략하게 설명하고 있으니 참고하면 좋습니다!
 
-<iframe width="680" height="345" src="https://www.youtube.com/embed/pnYccz1Ha34?si=Ownd81WYKoXqXcFG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% include responsive-embed url="https://www.youtube.com/embed/pnYccz1Ha34?si=Ownd81WYKoXqXcFG" ratio="16:9" %}
 
 요약하자면
 - 1차 Bezier Curve는 t가 0에서 1로 이동하면서 조절점 하나가 직선을 이루는 방식이다.
