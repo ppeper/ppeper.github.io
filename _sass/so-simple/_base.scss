@@ -108,4 +108,11 @@ figcaption {
 a {
   -webkit-transition: $global-transition;
   transition: $global-transition;
+  word-break: break-word; /* 긴 URL이 단어 단위로 줄바꿈 */
+  overflow-wrap: anywhere; /* 어디에서나 줄바꿈 가능 */
+}
+
+p {
+  word-break: break-word; /* 긴 URL이 단어 단위로 줄바꿈 */
+  overflow-wrap: anywhere; /* 어디에서나 줄바꿈 가능 */
 }
