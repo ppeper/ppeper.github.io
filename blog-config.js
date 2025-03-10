@@ -1,8 +1,8 @@
 module.exports = {
-  title: "",
+  title: "ppeper",
   description: "경험을 꾸준히 적어가는 곳",
   author: "PPEPER",
-  siteUrl: "https://devhudi.github.io/gatsby-starter-hoodie/",
+  siteUrl: "https://ppeper/ppeper.github.io",
   links: {
     github: "https://github.com/ppeper",
     linkedIn: "https://www.linkedin.com/in/ppeper/",
