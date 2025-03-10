@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://ppeper.github.io/sitemap.xml
