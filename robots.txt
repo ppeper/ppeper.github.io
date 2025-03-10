@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://ppeper/sitemap-index.xml
+Host: https://ppeper
