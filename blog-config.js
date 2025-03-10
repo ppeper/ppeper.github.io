@@ -6,10 +6,6 @@ module.exports = {
   links: {
     github: "https://github.com/ppeper",
     linkedIn: "https://www.linkedin.com/in/ppeper/",
-    instagram: "https://www.instagram.com/jj._.nu_/",
-    email: "mailto:joonhoo0123@gmail.com",
-    resume: "https://ppeper.github.io/",
-    link: "https://ppeper.github.io/",
   },
   useAbout: true,
   utterances: {
