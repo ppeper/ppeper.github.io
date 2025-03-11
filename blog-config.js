@@ -2,7 +2,7 @@ module.exports = {
   title: "ppeper🥤",
   description: "경험을 꾸준히 적어가는 곳",
   author: "PPEPER",
-  siteUrl: "https://ppeper/ppeper.github.io",
+  siteUrl: "https://ppeper.github.io/",
   links: {
     github: "https://github.com/ppeper",
     linkedIn: "https://www.linkedin.com/in/ppeper/",
