@@ -16,8 +16,8 @@ module.exports = {
   giscus: {
     repo: "ppeper/ppeper.github.io",
     repoId: "R_kgDOGiB33w=",
-    category: "Comments",
-    categoryId: "DIC_kwDOGiB3384Cnxdz",
+    category: "General",
+    categoryId: "DIC_kwDOGiB3384Cnxd0",
     mapping: "pathname",
     strict: "0",
     reactionsEnabled: "1",
