@@ -15,7 +15,7 @@ module.exports = {
   // See https://giscus.app/
   giscus: {
     repo: "ppeper/ppeper.github.io",
-    repoId: "R_kgDOGiB33w=",
+    repoId: "R_kgDOGiB33w",
     category: "General",
     categoryId: "DIC_kwDOGiB3384Cnxd0",
     mapping: "pathname",
