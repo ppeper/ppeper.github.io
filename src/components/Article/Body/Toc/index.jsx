@@ -49,7 +49,7 @@ const TocWrapper = styled.div`
 
 const ParagraphTitle = styled.div`
   margin-bottom: 8px;
-  padding-left: ${props => (props.subtitle ? 19.2 : 0)}px;
+  padding-left: ${props => (props.subtitle2 ? 38.4 : (props.subtitle ? 19.2 : 0))}px;
   font-size: 14.4px;
   color: ${props => props.theme.colors.mutedText};
   line-height: 1.3;
@@ -86,7 +86,7 @@ const Toc = ({ items, articleOffset }) => {
   useEffect(() => {
     setHeaders(
       [
-        ...document.querySelectorAll("#article-body > h2, #article-body > h3"),
+        ...document.querySelectorAll("#article-body > h1, #article-body > h2, #article-body > h3"),
       ].map(element => getElementOffset(element).top)
     )
   }, [])
@@ -112,7 +112,8 @@ const Toc = ({ items, articleOffset }) => {
           {items.map((item, i) => (
             <ParagraphTitle
               key={i}
-              subtitle={item.tagName === "H3"}
+              subtitle={item.tagName === "H2"}
+              subtitle2={item.tagName === "H3"}
               active={i === active}
               onClick={() => handleClickTitle(item)}
             >

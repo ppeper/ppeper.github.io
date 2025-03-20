@@ -24,7 +24,7 @@ const Body = ({ html, hideToc }) => {
   useEffect(() => {
     setToc(
       Array.from(
-        document.querySelectorAll("#article-body > h2, #article-body > h3")
+        document.querySelectorAll("#article-body > h1, #article-body > h2, #article-body > h3")
       )
     )
   }, [])

@@ -35,6 +35,7 @@ const StyledMarkdown = styled.div`
     }
   }
 
+  & h1,
   & h2,
   & h3,
   & h4,
@@ -43,6 +44,11 @@ const StyledMarkdown = styled.div`
     margin: 11.2px 0 4.8px 0;
     font-weight: 700;
     overflow: visible;
+  }
+
+  & h1 {
+    margin-top: 50px;
+    font-size: 28px;
   }
 
   & h2 {
