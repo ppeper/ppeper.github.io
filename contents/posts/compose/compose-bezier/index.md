@@ -11,13 +11,14 @@ series: "Android"
 > 사이드 프로젝트 중 스쿼클 모양을 디자인에 구현해야 하는 상황이 생겨, Compose의 Custom View를 활용하여 해당 화면을 구현하며 학습한 내용을 정리하고자 합니다.
 
 # 스쿼클?
-<img src = "squircle-and-round-image.png">
+
+![](./squircle-and-round-image.png)
 
 스쿼클은 정사각형과 원의 중간 형태로, `정사각형`과 `원`의 합성어이다. 위의 이미지에서 볼 수 있듯이, 일반적인 라운드 처리된 사각형과 비교하면 더 부드러운 곡률로 연결된 것을 알 수 있다.
 
 Compose에서는 `Canvas` 스코프 내에서 `draw`라는 접두사가 붙은 함수를 활용해 커스텀 UI를 그릴 수 있다.
 
-<img src = "canvas-draw-functions.png">
+![](./canvas-draw-functions.png)
 
 일반적인 선으로 이루어진 Chart 화면, 그래프와 같은 경우는 `Path()` 와 `drawPath()` 를 사용하여 그리면 될 것이다. 하지만 스쿼클의 경우 곡선 처리가 되어 있어 쉽지 않을 것이다.
 
@@ -71,7 +72,7 @@ fun relativeCubicTo(dx1: Float, dy1: Float, dx2: Float, dy2: Float, dx3: Float, 
 
 [스쿼클을 웹사이트](https://cubic-bezier.com/#.17,.67,.83,.67)에서 미리 시물레이션 해볼 수 있는 사이트가 있어 혹시 그리게 될 디자인이 있다면 조절점들을 이동하며 확인해 보고 구현할 수 있다.
 
-<img src = "squircle-my-design.png">
+![](./squircle-my-design.png)
 
 스쿼클을 그리기 위해 조절점들을 start, c1, c2, end로 잡아 (start ~ c2), (c1 ~ end) 를 이용해서 그리도록 구상했다. 이 과정을 반복하여 전체 도형을 완성하도록 하자.
 
@@ -148,7 +149,7 @@ fun SquircleShapeWithIcon(
 ```
 위 코드는 Slot API 형식을 사용하여 Preview용 Icon을 삽입한 코드로 결과는 아래와 같다.
 
-<img src="design-preview.png" width="50%">
+![](./design-preview.png)
 
 # References
 - [https://namu.wiki](https://namu.wiki/w/%EB%B2%A0%EC%A7%80%EC%97%90%20%EA%B3%A1%EC%84%A0)
