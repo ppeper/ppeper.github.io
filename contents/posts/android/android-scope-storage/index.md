@@ -10,6 +10,8 @@ series: "Android"
 
 안드로이드에서의 저장소는 크게 `내부 저장소`, `외부 저장소` 로 나뉘어 관리하고 있다. 외부 저장소는 하나의 공용 저장소로 사용되는 공간으로, 쉽게 안드로이드 폰에서 내 파일과 같은 파일탐색기에서 볼 수 있는 저장 공간으로 생각하면 쉽다. 이러한 외부 저장소에도 Private 하게 개별 앱을 위한 별도의 공간이 있는데 이들을 간단하게 정리해보면 아래와 같다.
 
+<img src="./scope_storage.png"/>
+
 # 안드로이드 10(Q) 이전과 이후
 안드로이드 버전 10 에서는 새로운 __Scope Storage__ 정책이 나오게 되었다. 기존 10버전 이전에는 앱이 디바이스 파일에 접근하기 위해 저장소 권한`(READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE)`만 얻으면 가능했지만 이를 보안상의 이유로 __다른 앱의 공용공간에 접근이 불가능__ 하도록 막아두었다. 
 
@@ -203,8 +205,7 @@ suspend fun loadImage(uri: Uri): Result<Bitmap> {
 지정한 Pictures 경로에 저장된것을 볼 수 있다. 구글 공식 문서에서 많은 ContentResolver 사용법이 있어 이를 보고 다양하게 사용하면 될것 같다.
 
 <img src="save_test.gif" width="50%">
-
-<img src="https://github.com/user-attachments/assets/feb88837-d811-4a9d-801d-8fadc712c15e" width = "50%"/>
+<img src="./save_storage.png" width = "20%"/>
 
 - - -
 # References 
