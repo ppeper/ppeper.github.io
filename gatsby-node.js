@@ -1,5 +1,7 @@
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const _ = require("lodash")
+const fs = require("fs");
+const path = require("path");
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
@@ -114,3 +116,9 @@ exports.createSchemaCustomization = ({ actions }) => {
   `
   createTypes(typeDefs)
 }
+
+exports.onPostBuild = () => {
+  const filePath = path.join(__dirname, "public", ".nojekyll");
+
+  fs.writeFileSync(filePath, "");
+};
