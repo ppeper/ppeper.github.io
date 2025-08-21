@@ -1,6 +1,6 @@
 module.exports = {
   title: "ppeper🥤",
-  description: "꾸준함이 특별함으로",
+  description: "오늘도 버그 없는 행복한 하루를",
   author: "PPEPER",
   siteUrl: "https://ppeper.github.io",
   links: {
