@@ -2,7 +2,7 @@ const blogConfig = require("./blog-config")
 const { title, description, author, siteUrl } = blogConfig
 
 module.exports = {
-  pathPrefix: "/gatsby-starter-hoodie",
+  pathPrefix: "",
   siteMetadata: {
     title,
     description,
@@ -17,7 +17,14 @@ module.exports = {
       },
     },
     `gatsby-plugin-catch-links`,
-    `gatsby-plugin-robots-txt`,
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: siteUrl,
+        sitemap: `${siteUrl}/sitemap-index.xml`,
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
     {
       resolve: `gatsby-plugin-react-redux`,
       options: {
@@ -170,8 +177,12 @@ module.exports = {
       },
     },
     `gatsby-plugin-resolve-src`,
-    `gatsby-plugin-sitemap`,
     {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        createLinkInHead: true,
+      },
+    },    {
       resolve: `gatsby-plugin-feed`,
       options: {
         query: `
